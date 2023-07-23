@@ -3,6 +3,8 @@ Get the notification when your server is fully operational
 
 ## Requirements
 
+- **python3**
+
 - **playsound** (python lib)
 
 - **notify-send** (should be available in your system repository: pacman, aur, apt...)
