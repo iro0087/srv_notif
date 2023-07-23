@@ -3,6 +3,8 @@ Get the notification when your server is fully operational
 
 ## Requirements
 
+- **playsound** (python lib)
+
 - **notify-send** (should be available in your system repository: pacman, aur, apt...)
 
 - **dunst** is required to run notify-send ,you can start it when your computer is booting (.xinitrc for stratx ...)
