@@ -1,5 +1,7 @@
 #!/bin/bash
 
+notify-send "Searching for server" "..."
+
 nb_server=$(ls *sh | wc -l)
 
 nb_server=$((nb_server - 3))
