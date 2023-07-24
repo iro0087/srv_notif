@@ -9,7 +9,7 @@ t=1
 while ((t < nb_server))
 do
        
-       bash "server_${t}.sh" & 
+       bash ~/server_all/server_${t}.sh & 
 
        t=$((t+1))
 
