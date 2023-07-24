@@ -1,4 +1,4 @@
 from playsound import playsound
 
-playsound('notif_server.wav')
+playsound('server_all/notif_server.wav')
 
