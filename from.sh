@@ -14,7 +14,7 @@ do
 
                 notify-send "Server online" "${server}"
 
-                python3 play2.py &
+                python3 ~/server_all/play2.py &
 
                 a=1
 
@@ -29,7 +29,7 @@ do
 
                 notify-send "Server disconnected" "${server}"
 
-                python3 play2b.py &
+                python3 ~/server_all/play2b.py &
 
                 a=0
 
