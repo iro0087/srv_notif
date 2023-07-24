@@ -1,5 +1,7 @@
 #!/bin/bash
 
+notify-send "End of the programm"
+
 t=1
 
 nb_server=$(ls *sh | wc -l)
