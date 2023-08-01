@@ -4,7 +4,7 @@ notify-send "End of the programm"
 
 t=1
 
-nb_server=$(cat server_list.txt | wc -l)
+nb_server=$(cat ~/server_all/server_list.txt | wc -l)
 
 nb_server=$((nb_server+1))
 
