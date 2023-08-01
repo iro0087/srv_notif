@@ -6,6 +6,8 @@ t=1
 
 nb_server=$(cat server_list.txt | wc -l)
 
+nb_server=$((nb_server+1))
+
 while ((t < nb_server))
 do
 
